@@ -26,4 +26,16 @@ function reverseWords(str){
 
 <br>
 
+### _Week challenges (Wednesday)_ 💻
+
+_1. [Smallest Integer In Array](https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript) exercise_
+
+<br>
+
+### _Week challenges (Thursday)_ 💻
+
+_1. [Odd Or Even](./exercises/e03/desc/) exercise_
+
+<br>
+
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
