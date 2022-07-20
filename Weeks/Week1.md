@@ -28,11 +28,25 @@ function reverseWords(str){
 
 ### _Week challenges (Wednesday)_ 💻
 
+<br>
+
 _1. [Smallest Integer In Array](https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript) exercise_
 
 <br>
 
+```js
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args)
+  }
+}
+```
+
+<br>
+
 ### _Week challenges (Thursday)_ 💻
+
+<br>
 
 _1. [Odd Or Even](./exercises/e03/desc/) exercise_
 
