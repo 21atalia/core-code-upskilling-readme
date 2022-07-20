@@ -1,6 +1,19 @@
-*<h1 align="center">Fullstack guide 🚀</h1>*
+<h1 align="center">React - Week 1</h1>
 
-## Index
+### _Week challenges (Tuesday)_ 💻
+<br>
 
+_1. [Ensure Question](https://www.codewars.com/kata/5866fc43395d9138a7000006) exercise_
+
+<br>
+
+```js
+function ensureQuestion(s) {
+  return s.endsWith('?') ? s : s + '?'
+}
+```
+<br>
+
+_2. [Reverse Sentence](./exercises/e01/desc/) exercise_
 
 
