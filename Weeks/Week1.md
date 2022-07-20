@@ -17,4 +17,4 @@ function ensureQuestion(s) {
 _2. [Reverse Sentence](./exercises/e01/desc/) exercise_
 
 
-[⬆ Back to homepage](https://github.com/21atalia/core-code-from-scratch-readme/blob/main/README.md)
+[⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
