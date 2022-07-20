@@ -14,7 +14,16 @@ function ensureQuestion(s) {
 ```
 <br>
 
-_2. [Reverse Sentence](./exercises/e01/desc/) exercise_
+_2. [Reverse Sentence](https://www.codewars.com/kata/51c8991dee245d7ddf00000e/train/javascript) exercise_
 
+<br>
+
+```js
+function reverseWords(str){
+  return str.split(' ').reverse().join(' ');
+}
+```
+
+<br>
 
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
