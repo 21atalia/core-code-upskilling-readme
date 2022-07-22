@@ -52,4 +52,9 @@ _1. [Odd Or Even](./exercises/e03/desc/) exercise_
 
 <br>
 
+```js
+ return array.reduce((a,b) => a+b,0) %2 == 0 ? `${'even'}`:`${'odd'}`
+ ```
+ <br>
+
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
