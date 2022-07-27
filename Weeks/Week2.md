@@ -14,5 +14,20 @@ function isPalindrome(line) {
 ```
 <br>
 
+### _Week challenges (Wednesday)_ 💻
+<br>
+
+_1. [React Manage Events exercise](https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript)
+<br>
+
+```
+function well(x){
+  const count = x.reduce((s, v) => s + (v == 'good'), 0);
+  return count ? count > 2 ? 'I smell a series!' : 'Publish!' : 'Fail!';
+}
+```
+
+<br>
+
 
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
