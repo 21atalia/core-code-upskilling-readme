@@ -21,7 +21,7 @@ _1. [React Manage Events exercise](https://www.codewars.com/kata/57f222ce69e09c3
 
 <br>
 
-```
+```js
 function well(x){
   const count = x.reduce((s, v) => s + (v == 'good'), 0);
   return count ? count > 2 ? 'I smell a series!' : 'Publish!' : 'Fail!';
