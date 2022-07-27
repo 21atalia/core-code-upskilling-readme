@@ -17,7 +17,8 @@ function isPalindrome(line) {
 ### _Week challenges (Wednesday)_ 💻
 <br>
 
-_1. [React Manage Events exercise](https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript)
+_1. [React Manage Events exercise](https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript)_
+
 <br>
 
 ```
