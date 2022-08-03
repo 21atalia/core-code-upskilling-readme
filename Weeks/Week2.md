@@ -30,5 +30,23 @@ function well(x){
 
 <br>
 
+### Week challenges (Wednesday) 💻
+
+1. [React Manage Events](https://www.codewars.com/kata/5a8319f257c562ede8000037/train/javascript) exercise
+
+<br>
+
+## Week challenges (Thursday) 💻
+
+1. [React Santa Wish List]() exercise
+2. Work on project 🤖
+
+## Extra challenges 💻
+
+1. [Easter egg list in ReactJS](https://www.codewars.com/kata/5a95947f4a6b342636000173/train/javascript)
+2. [PC upgrade specs using HOC in ReactJS](https://www.codewars.com/kata/5a9c0fa45084d79b1f000138)
+
+<br>
+
 
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
