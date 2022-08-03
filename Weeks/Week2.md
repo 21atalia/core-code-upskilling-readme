@@ -30,21 +30,21 @@ function well(x){
 
 <br>
 
-### Week challenges (Wednesday) 💻
+### _Week challenges (Wednesday)_ 💻
 
-1. [React Manage Events](https://www.codewars.com/kata/5a8319f257c562ede8000037/train/javascript) exercise
+_1. [React Manage Events](https://www.codewars.com/kata/5a8319f257c562ede8000037/train/javascript) exercise_
 
 <br>
 
-## Week challenges (Thursday) 💻
+### _Week challenges (Thursday)_ 💻
 
-1. [React Santa Wish List]() exercise
-2. Work on project 🤖
+_1. [React Santa Wish List]() exercise_
 
-## Extra challenges 💻
 
-1. [Easter egg list in ReactJS](https://www.codewars.com/kata/5a95947f4a6b342636000173/train/javascript)
-2. [PC upgrade specs using HOC in ReactJS](https://www.codewars.com/kata/5a9c0fa45084d79b1f000138)
+### _Extra challenges_ 💻
+
+_1. [Easter egg list in ReactJS](https://www.codewars.com/kata/5a95947f4a6b342636000173/train/javascript)_
+_2. [PC upgrade specs using HOC in ReactJS](https://www.codewars.com/kata/5a9c0fa45084d79b1f000138)_
 
 <br>
 
