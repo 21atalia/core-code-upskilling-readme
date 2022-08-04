@@ -8,10 +8,12 @@ _1. Build Search Filter In React exercise_
 
 ### _Week challenges (Tuesday)_ 💻
 <br>
+
 _1. Fetch Random User Data_
 
 
 ### _Week challenges (Wednesday)_ 💻
 <br>
+
 _1. React Router Blog exercise_
 
