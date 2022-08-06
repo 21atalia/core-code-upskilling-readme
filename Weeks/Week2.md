@@ -20,6 +20,8 @@ _1. [Well Of Ideas](https://www.codewars.com/kata/57f222ce69e09c3630000212/train
 
 > Solution 1
 
+<br>
+
 ```js
 function well(x) {
   const count = x.reduce((s, v) => s + (v == 'good'), 0);
@@ -27,7 +29,11 @@ function well(x) {
 }
 ```
 
+<br>
+
 > Solution 2
+
+<br>
 
 ```js
 const well = x => {
@@ -40,24 +46,43 @@ const well = x => {
 <br>
 
 ### _Week challenges (Wednesday)_ 💻
-<br>
-
-_1. [React Manage Events exercise](https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript)_
-
-<br>
-
-```js
-function well(x){
-  const count = x.reduce((s, v) => s + (v == 'good'), 0);
-  return count ? count > 2 ? 'I smell a series!' : 'Publish!' : 'Fail!';
-}
-```
-
-<br>
-
-### _Week challenges (Wednesday)_ 💻
 
 _1. [React Manage Events](https://www.codewars.com/kata/5a8319f257c562ede8000037/train/javascript) exercise_
+
+> Solution 
+
+```js
+import React from 'react';
+
+export class Counter extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            counter: 0
+        };
+        this.increment = this.increment.bind(this);
+        this.decrement = this.decrement.bind(this);
+    }
+
+    increment(){
+        this.setState({counter: this.state.counter + 1});
+    };
+
+    decrement(){
+        this.setState({counter: this.state.counter - 1});
+    };
+
+    render(){
+        return (
+            <div className='counter'>
+                <p id='counter'>{this.state.counter}</p>
+                <button id='increment' onClick={this.increment}>+</button>
+                <button id='decrement' onClick={this.decrement}>-</button>
+            </div>
+        );
+    }
+}
+```
 
 <br>
 
