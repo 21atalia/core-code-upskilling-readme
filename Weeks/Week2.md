@@ -14,6 +14,31 @@ function isPalindrome(line) {
 ```
 <br>
 
+### _Week challenges (Tuesday)_ 💻
+
+_1. [Well Of Ideas](https://www.codewars.com/kata/57f222ce69e09c3630000212/train/javascript) exercise_
+
+> Solution 1
+
+```js
+function well(x) {
+  const count = x.reduce((s, v) => s + (v == 'good'), 0);
+  return count ? count > 2 ? 'I smell a series!' : 'Publish!' : 'Fail!';
+}
+```
+
+> Solution 2
+
+```js
+const well = x => {
+  const good_count = x.filter(x => x == 'good').length;
+  return good_count < 1 ? 'Fail!' : 
+         good_count < 3 ? 'Publish!' : 'I smell a series!';
+}
+```
+
+<br>
+
 ### _Week challenges (Wednesday)_ 💻
 <br>
 
