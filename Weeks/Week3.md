@@ -5,6 +5,10 @@
 
 _1. Build Search Filter In React exercise_
 
+> Solution
+
+
+
 
 ### _Week challenges (Tuesday)_ 💻
 <br>
