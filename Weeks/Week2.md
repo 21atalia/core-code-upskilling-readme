@@ -147,6 +147,25 @@ class WishlistForm extends React.Component {
 ### _Extra challenges_ 💻
 
 _1. [Easter egg list in ReactJS](https://www.codewars.com/kata/5a95947f4a6b342636000173/train/javascript)_
+
+<br>
+
+> Solution
+
+```js
+import React from 'react';
+
+export const EggList = ({eggs}) => { 
+  return <ul>{eggs.map((value, id) => <EasterEgg name={value} key={id}/>)}</ul>;
+};
+
+export const EasterEgg = ({name, key}) => {
+  return <li key={key}>{name}</li>;
+};
+```
+
+<br>
+
 _2. [PC upgrade specs using HOC in ReactJS](https://www.codewars.com/kata/5a9c0fa45084d79b1f000138)_
 
 <br>
