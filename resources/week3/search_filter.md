@@ -1,4 +1,4 @@
-<h2>App.js<h2>
+<h2>App.js</h2>
     
 <br>
 
