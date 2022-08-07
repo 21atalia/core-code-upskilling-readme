@@ -1,3 +1,7 @@
+<h2>App.js<h2>
+    
+<br>
+
 ```js
 import "./styles.css";
 import React, { useState } from "react";
@@ -29,7 +33,7 @@ const filterBySearch = (event) => {
     // Trigger render with updated values
     setFilteredList(updatedList);
 };
-
+      
 return (
     <div className="App">
     <div className="search-header">
@@ -46,4 +50,41 @@ return (
     </div>
 );
 };
+```
+    
+<br>
+    
+<h2>Styles.css</h2>
+    
+<br>
+    
+```js    
+ .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 22px;
+}
+.search-header {
+    display: flex;
+}
+.search-text {
+    margin-right: 10px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search-box {
+    height: 25px;
+}
+#search-box[placeholder] {
+    line-height: 25px;
+    font-size: 25px;
+}
+#item-list {
+    min-height: 260px;
+}
 ```
