@@ -17,3 +17,8 @@ function longest(s1, s2) {
   return [...(new Set(s1 + s2))].sort().join('');
 }
 ```
+
+<br>
+
+
+[⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
