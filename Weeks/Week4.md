@@ -20,5 +20,17 @@ function longest(s1, s2) {
 
 <br>
 
+### _Week challenges (Tuesday)_ 💻
+
+_1. [Leap Years](https://www.codewars.com/kata/526c7363236867513f0005ca/train/javascript) exercise_
+
+<br>
+
+>### Solution
+
+<br>
+
 
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
+
+
