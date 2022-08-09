@@ -4,7 +4,7 @@
 
 <br>
 
-1. [Two To One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac/train/javascript) exercise
+_1. [Two To One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac/train/javascript) exercise_
 
 <br>
 
