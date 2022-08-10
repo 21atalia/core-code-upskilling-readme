@@ -30,6 +30,13 @@ _1. [Leap Years](https://www.codewars.com/kata/526c7363236867513f0005ca/train/ja
 
 <br>
 
+```js
+function isLeapYear(year) {
+   return (year % 100 !== 0 && year % 4 === 0) || year % 400 === 0;
+}
+```js
+
+<br>
 
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
 
