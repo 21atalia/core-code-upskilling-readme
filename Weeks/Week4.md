@@ -34,7 +34,7 @@ _1. [Leap Years](https://www.codewars.com/kata/526c7363236867513f0005ca/train/ja
 function isLeapYear(year) {
    return (year % 100 !== 0 && year % 4 === 0) || year % 400 === 0;
 }
-```js
+```
 
 <br>
 
