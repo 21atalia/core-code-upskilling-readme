@@ -56,6 +56,13 @@ function mxdiflg(a1, a2) {
   return Math.max(Math.max(...l1) - Math.min(...l2), Math.max(...l2) - Math.min(...l1))
 }
 ```
+<br>
+
+### _Week challenges (Thursday)_ 💻
+
+<br>
+
+_1. [Base64 Numeric Translator](https://www.codewars.com/kata/5632e12703e2037fa7000061/train/javascript) exercise_
 
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
 
