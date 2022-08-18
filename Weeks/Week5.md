@@ -25,6 +25,36 @@ function map(head, f) {
 
 <br>
 
+### _Week challenges (Tuesday)_ 💻
+
+<br>
+
+_1. [Separating Strings]() exercise_
+
+<br>
+
+```js
+```
+
+<br>
+
+### _Week challenges (Wednesday)_ 💻
+
+<br>
+
+_1. [Highest Scoring Word](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/javascript) exercise_
+
+<br>
+
+```js
+function high(x){
+  let as = x.split(' ').map(x => [...x].reduce((a, b) => a+b.charCodeAt(0) - 96, 0));
+  return x.split(' ')[as.indexOf(Math.max(...as))];
+}
+```
+
+<br>
+
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
 
 
