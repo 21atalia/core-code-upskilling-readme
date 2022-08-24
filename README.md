@@ -12,3 +12,4 @@
 
 ![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 - _Week 5 : [Node](Weeks/Week5.md)_
+- _Week 6 : [Node](Weeks/Week6.md)_
