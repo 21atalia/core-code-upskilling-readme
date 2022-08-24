@@ -55,6 +55,18 @@ function high(x){
 
 <br>
 
+### _Week challenges (Thursday)_ 💻
+
+<br>
+
+_1. [Where Is My Parent?] exercise_
+
+<br>
+
+```js
+```
+
+
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
 
 
