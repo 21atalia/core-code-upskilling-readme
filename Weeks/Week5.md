@@ -70,13 +70,32 @@ function high(x){
 
 <br>
 
-> ### Solution 
-
-_1. [Where Is My Parent?] exercise_
+_1. [Where Is My Parent?](https://www.codewars.com/kata/58539230879867a8cd00011c/train/javascript) exercise_
 
 <br>
 
+> ### Solution 
+
 ```js
+function findChildren(str) {
+  str = str.toLowerCase()
+//   beeeebb
+  let arr = str.split('')
+//   [ 'b', 'e', 'e', 'e', 'e', 'b', 'b' ]
+  var r = '';
+  let letters = [...new Set(arr)].sort()
+//   ['b','e']
+
+  for(let i = 0; i<letters.length; i++){
+//     Will iterate ['b','e']
+    for(let j = 0; j<str.length; j++){
+//       Will iterate //   [ 'b', 'e', 'e', 'e', 'e', 'b', 'b' ]
+      if(letters[i] == arr[j]) r += arr[j]
+    }
+  }
+  return r.split('').map((x,i)=> x !== r[i-1] ? x = x.toUpperCase() : x ).join('')
+//   in the map, if the actual letter isn't the same as the last one it'll make it upperCase becuase it is the first one of those group
+}
 ```
 
 
