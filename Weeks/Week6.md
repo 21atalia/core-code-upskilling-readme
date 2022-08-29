@@ -24,4 +24,10 @@ FROM expression_matter;
 
 <br>
 
+### _Week challenges (Tuesday)_ 💻
+
+1. [Sudoku Solution Validator]() exercise
+
+<br>
+
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
