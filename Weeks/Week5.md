@@ -29,11 +29,20 @@ function map(head, f) {
 
 <br>
 
+> ### Solution 
+
+<br>
+
 _1. [Separating Strings]() exercise_
 
 <br>
 
 ```js
+function sepStr(arr) {
+  const words = arr.split(' ');
+  const longest = [ ...(words.reduce((l, w) => w.length > l.length ? w : l, '')) ];
+  return longest.map((_, i) => words.map(w => w[i] || ''));
+}
 ```
 
 <br>
@@ -45,6 +54,8 @@ _1. [Separating Strings]() exercise_
 _1. [Highest Scoring Word](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/javascript) exercise_
 
 <br>
+
+> ### Solution 
 
 ```js
 function high(x){
@@ -58,6 +69,8 @@ function high(x){
 ### _Week challenges (Thursday)_ 💻
 
 <br>
+
+> ### Solution 
 
 _1. [Where Is My Parent?] exercise_
 
