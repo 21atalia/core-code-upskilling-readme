@@ -64,6 +64,21 @@ function mxdiflg(a1, a2) {
 
 _1. [Base64 Numeric Translator](https://www.codewars.com/kata/5632e12703e2037fa7000061/train/javascript) exercise_
 
+<br>
+
+```js
+function base64_to_base10(str) {
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';  
+  let base10 = 0;
+  str.split('').reverse().forEach((b64, i) => {
+    base10 += alphabet.indexOf(b64) * Math.pow(64, i);
+  });
+  return base10;
+}
+```
+
+<br>
+
 [⬆ Back to homepage](https://github.com/21atalia/core-code-upskilling-readme/blob/main/README.md)
 
 
